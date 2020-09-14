@@ -1,6 +1,6 @@
 body{
-    padding: 0%;
-    margin: 0%;
+    /* padding: 0%;
+    margin: 0%; */
 }
 form{
     /* display: flex;
@@ -23,7 +23,7 @@ form{
     outline: none;
     color: #1DA1F2;
 }
-.btn{
+.log{
     padding-top: 10px;
     height: 50px;
     color: white;
@@ -31,7 +31,25 @@ form{
     width: 30%;  
     border-radius: 50px; 
     cursor: pointer;
+    text-align: center;
 }
 .hovb:hover{
     color: white;
+}
+.nxt{
+    padding-top: 1px;
+    height: 35px;
+    background-color: #8ED0F9;
+    color: white;
+    width: px;
+    border-radius: 30px;
+    margin-left: 28%;
+    font-size: 20px; 
+}
+.nxt:hover{
+    background-color: #8ED0F9 !important;
+    color: white !important;
+}
+.ltext{
+    color: #657786;
 }
