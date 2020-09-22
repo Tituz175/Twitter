@@ -1,0 +1,70 @@
+// Colors
+// key: bg=background, sv=side nav, hsv=hover side nav 
+$bgbodyColor:#FFFFFF;
+$bgtextColor:#14171A;
+$sv2bgColor:#F5F8FA;
+$hsv2bgColor:#EDF0F2;
+$hsvbgColor:#E8F5FE;
+$hsvColor:#1DA1F2;
+
+
+
+// font sizes
+// key: l=light, ll=light light, i=icon
+$font:19px;
+$lfont:15px;
+$llfont:13px;
+$ifont:120%;
+
+.sidev{
+    // position: relative;
+    // left: 100px;
+    margin: 0px 0px 0px 320px;
+    .v{
+        padding: 28px 0px 0px 0px;
+        border: 0px solid red;
+        // :hover .sv{ background: $hsvbgColor; color: $hsvColor; 
+        // }
+       .sv{
+           text-decoration: none; 
+           color: $bgtextColor; 
+           border: 0px solid black; 
+           border-radius: 30px; 
+           padding: 10px 15px 10px 15px;
+           font-size: $font;
+           font-weight: 700;
+       }
+       .isv{
+           font-size: $ifont;
+           margin-right: 18px;
+       }
+    }
+   } 
+.v:hover .sv{ background: $hsvbgColor; color: $hsvColor;}
+.t{
+    border-radius: 30px;
+    padding: 12px;
+    color: $hsvColor;
+    font-size: 180%;
+    margin: 2px 0px 0px 0px;
+    // :hover {
+    //     background: $hsvbgColor; 
+    //     color: $hsvColor;
+    // }
+}
+.t:hover {
+    background: $hsvbgColor; 
+    color: $hsvColor;
+}
+.b{
+    font-size: $lfont;
+    font-weight: 700;
+    background: $hsvColor; 
+    border-radius: 50px; 
+    width: 80%; 
+    padding: 5% 0% 5% 0%;
+    margin: 35px 0px 0px 0px;
+}
+.b:hover{
+    background: #1A91DA;
+}

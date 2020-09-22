@@ -1,0 +1,45 @@
+.sidev {
+  margin: 0px 0px 0px 320px; }
+  .sidev .v {
+    padding: 28px 0px 0px 0px;
+    border: 0px solid red; }
+    .sidev .v .sv {
+      text-decoration: none;
+      color: #14171A;
+      border: 0px solid black;
+      border-radius: 30px;
+      padding: 10px 15px 10px 15px;
+      font-size: 19px;
+      font-weight: 700; }
+    .sidev .v .isv {
+      font-size: 120%;
+      margin-right: 18px; }
+
+.v:hover .sv {
+  background: #E8F5FE;
+  color: #1DA1F2; }
+
+.t {
+  border-radius: 30px;
+  padding: 12px;
+  color: #1DA1F2;
+  font-size: 180%;
+  margin: 2px 0px 0px 0px; }
+
+.t:hover {
+  background: #E8F5FE;
+  color: #1DA1F2; }
+
+.b {
+  font-size: 15px;
+  font-weight: 700;
+  background: #1DA1F2;
+  border-radius: 50px;
+  width: 80%;
+  padding: 5% 0% 5% 0%;
+  margin: 35px 0px 0px 0px; }
+
+.b:hover {
+  background: #1A91DA; }
+
+/*# sourceMappingURL=home.css.map */
