@@ -30,6 +30,10 @@ $lfont:15px;
 $llfont:13px;
 $ifont:120%;
 
+// Pictures
+//key p=profile
+$pwidth:50px;
+$pheight:50px;
 .sidev{
     // position: relative;
     // left: 100px;
@@ -84,6 +88,55 @@ $ifont:120%;
 }
 
 .mb{
-    padding: 10px;
     border: 1px solid $bColor;
+    .h{ 
+        padding: 10px;
+        font-size: $font;
+        font-weight: 800;
+        border-bottom: 1px solid $bColor;
+    }
+    .dp{
+        width: $pwidth;
+        height: $pheight;
+    }
+    .hi{
+        border-bottom: 0px solid black;
+        border-radius: 50px;
+        padding: 5px;
+        height: 35px;
+        }
+    .p{
+        border-bottom: 1px solid $bColor;
+        padding: 4px;
+        .pt{
+            font-size: $font;
+            font-weight: 400;
+            color: #778794;
+        }
+        .pi{
+            margin: 0px 5px 12px 2px;
+            padding: 4px;
+            border: 0px solid black;
+            border-radius: 20px;
+        }
+        .pb{
+            margin: 0px 100px 0px 0px;
+            color:white;
+            background: #8ED0F9;
+            padding: 7% 12% 7% 12%;
+            font-size: $lfont;
+            font-weight: 700;
+            border-radius: 30px;
+            position: relative;
+            left: 60px;
+        }
+    }
+    
+}
+.hi:hover {
+    background: $hsvbgColor; 
+    color: $hsvColor;
+}
+.pi:hover{
+    background: $hsvbgColor;
 }
