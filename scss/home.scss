@@ -1,16 +1,30 @@
 // Colors
-// key: bg=background, sv=side nav, hsv=hover side nav 
+// key: 
+// bg=background 
+// sv=side nav 
+// hsv=hover 
+// side nav
+// mb=main body
+// hmb=hover main body 
+// b=border
+
 $bgbodyColor:#FFFFFF;
-$bgtextColor:#14171A;
+$textColor:#14171A;
 $sv2bgColor:#F5F8FA;
 $hsv2bgColor:#EDF0F2;
 $hsvbgColor:#E8F5FE;
 $hsvColor:#1DA1F2;
-
+$mbgColor:#FFFFFF;
+$hmbgColor:#F5F8FA;
+$bColor:#E6ECF0;
 
 
 // font sizes
-// key: l=light, ll=light light, i=icon
+// key: 
+// l=light
+// ll=light light
+// i=icon
+
 $font:19px;
 $lfont:15px;
 $llfont:13px;
@@ -27,7 +41,7 @@ $ifont:120%;
         // }
        .sv{
            text-decoration: none; 
-           color: $bgtextColor; 
+           color: $textColor; 
            border: 0px solid black; 
            border-radius: 30px; 
            padding: 10px 15px 10px 15px;
@@ -67,4 +81,9 @@ $ifont:120%;
 }
 .b:hover{
     background: #1A91DA;
+}
+
+.mb{
+    padding: 10px;
+    border: 1px solid $bColor;
 }
