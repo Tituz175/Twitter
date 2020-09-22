@@ -34,15 +34,20 @@ $ifont:120%;
 //key p=profile
 $pwidth:50px;
 $pheight:50px;
+
+//.sidev=side nav
 .sidev{
     // position: relative;
     // left: 100px;
     margin: 0px 0px 0px 320px;
+
+    //.v=the div housing each side nav items
     .v{
         padding: 28px 0px 0px 0px;
         border: 0px solid red;
         // :hover .sv{ background: $hsvbgColor; color: $hsvColor; 
         // }
+        //.sv=the nav items
        .sv{
            text-decoration: none; 
            color: $textColor; 
@@ -52,28 +57,29 @@ $pheight:50px;
            font-size: $font;
            font-weight: 700;
        }
+       //.isv=icon in the nav items
        .isv{
            font-size: $ifont;
            margin-right: 18px;
        }
     }
-   } 
+   }
+   //hover effect for the nav times 
 .v:hover .sv{ background: $hsvbgColor; color: $hsvColor;}
+//.t=twitter icon
 .t{
     border-radius: 30px;
     padding: 12px;
     color: $hsvColor;
     font-size: 180%;
     margin: 2px 0px 0px 0px;
-    // :hover {
-    //     background: $hsvbgColor; 
-    //     color: $hsvColor;
-    // }
 }
+//hover effect for the icon
 .t:hover {
     background: $hsvbgColor; 
     color: $hsvColor;
 }
+//.t=tweet buttom in the side nav
 .b{
     font-size: $lfont;
     font-weight: 700;
@@ -83,42 +89,59 @@ $pheight:50px;
     padding: 5% 0% 5% 0%;
     margin: 35px 0px 0px 0px;
 }
+//hover effect for the buttom
 .b:hover{
     background: #1A91DA;
 }
-
+//.mb=main webpage body
 .mb{
     border: 1px solid $bColor;
+    //.h=home text
     .h{ 
         padding: 10px;
         font-size: $font;
         font-weight: 800;
         border-bottom: 1px solid $bColor;
     }
-    .dp{
-        width: $pwidth;
-        height: $pheight;
-    }
+    //.hi=home icon
     .hi{
         border-bottom: 0px solid black;
         border-radius: 50px;
         padding: 5px;
         height: 35px;
-        }
+    }
+    //hover effect for home icon
+    .hi:hover {
+        background: $hsvbgColor; 
+        color: $hsvColor;
+    }
+    //.dp=profile picture
+    .dp{
+        width: $pwidth;
+        height: $pheight;
+    }
+    //.p=profile
     .p{
-        border-bottom: 1px solid $bColor;
+        border-bottom: 10px solid $bColor;
         padding: 4px;
+        //.pt=profile text
         .pt{
             font-size: $font;
             font-weight: 400;
             color: #778794;
         }
+        //.pi=profile icons
         .pi{
             margin: 0px 5px 12px 2px;
             padding: 4px;
             border: 0px solid black;
             border-radius: 20px;
         }
+        //hover effect for the icons
+        .pi:hover{
+            background: $hsvbgColor;
+        }
+        //.pb=profile buttom
         .pb{
             margin: 0px 100px 0px 0px;
             color:white;
@@ -131,12 +154,29 @@ $pheight:50px;
             left: 60px;
         }
     }
-    
-}
-.hi:hover {
-    background: $hsvbgColor; 
-    color: $hsvColor;
-}
-.pi:hover{
-    background: $hsvbgColor;
+    //.ps=posts
+    .ps{
+        border: 1px solid $bColor;
+        //.pst=post text
+        .pst{
+            position: relative; 
+            bottom: 10px; 
+            font-weight: 700;
+            font-size: $lfont;
+        }
+        //.psi=post icon
+        .psi{
+            color: $hsvColor; 
+            position: relative; 
+            bottom: 10px;
+        }
+        //.pst2=post secondary text
+        .pst2{
+            font-weight: 400;
+            font-size: $lfont;
+            color: #96A3AE;
+            position: relative; 
+            bottom: 10px;
+        }
+    }
 }
