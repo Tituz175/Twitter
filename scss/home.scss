@@ -35,7 +35,7 @@ $ifont:120%;
 $pwidth:50px;
 $pheight:50px;
 
-//.sidev=side nav
+//.sidev=side nav left
 .sidev{
     // position: relative;
     // left: 100px;
@@ -177,6 +177,35 @@ $pheight:50px;
             color: #96A3AE;
             position: relative; 
             bottom: 10px;
+        }
+        //.pimg=post image
+        .pimg{
+            border: 0.1px solid gray; 
+            border-radius: 30px; 
+            width: 94%; 
+            height: 35vh; 
+            box-shadow: 1px 1px 5px gray;
+            margin: 0px 20px 0px 30px;
+        }
+    }
+}
+//.sidev2=side nav right
+.sidev2{
+    width: 55%;
+    //.it1=item one on side nav right
+    .it1{
+        border-radius: 50px; 
+        background: #E6ECF0;
+    }
+    //.it2=item two on side nav right
+    .it2{
+        background:$sv2bgColor; 
+        border-radius: 15px 15px 0px 0px; 
+        border-bottom: 0.5px solid $bColor;
+        //.it2t=item two text on side nav right 
+        .it2t{
+            font-size: $font;
+            font-weight: 800;
         }
     }
 }
