@@ -120,6 +120,11 @@ $pheight:50px;
         width: $pwidth;
         height: $pheight;
     }
+    //.dps=profile picture smaller
+    .dps{
+        width: 30px;
+        height: 30px;
+    } 
     //.p=profile
     .p{
         border-bottom: 10px solid $bColor;
@@ -178,13 +183,43 @@ $pheight:50px;
             position: relative; 
             bottom: 10px;
         }
+        //.pst3=post 3rd text
+        .pst3{
+            font-weight: 400;
+            font-size: $lfont;
+            position: relative; 
+            bottom: 35px;
+            margin: 0px 0px 0px 70px;
+        }
+        //.pst4=post 4th text
+        .pst4{
+            font-weight: 400;
+            font-size: $lfont;
+            position: relative; 
+            bottom: 25px;
+            margin: 0px 0px 0px 70px; 
+            color: $hsvColor;    
+        }
+        //.psts=post text superscript
+        .psts{
+            font-weight: 400;
+            font-size: $llfont;
+            color: #657786;
+            position: relative;
+            top: 5px;
+        }
+        //.psc=post content
+        .psc{
+            font-size: $lfont;
+            font-weight: 400;
+            color: $textColor;
+        }
         //.pimg=post image
         .pimg{
-            border: 0.1px solid gray; 
+            border: 0px solid gray; 
             border-radius: 30px; 
             width: 94%; 
             height: 35vh; 
-            box-shadow: 1px 1px 5px gray;
             margin: 0px 20px 0px 30px;
         }
         //.psi2=post icon two
@@ -200,6 +235,35 @@ $pheight:50px;
             color: #4BB3F2;
             background: #D8E8F2;
         }
+
+        .i1{
+            border: 1px solid $hsvColor;
+            border-radius: 30px;
+            padding: 8px;
+            margin: 8px 0px 8px 0px;
+        }
+        .i2{
+            border: 1px solid #17BF63;
+            border-radius: 30px;
+            padding: 8px;
+            margin: 8px 0px 8px 0px;
+        }
+        .i3{
+            border: 1px solid #E12F66;
+            border-radius: 30px;
+            padding: 8px;
+            margin: 8px 0px 8px 0px;
+        }
+        .i4{
+            border: 1px solid $hsvColor;
+            border-radius: 30px;
+            padding: 8px;
+            margin: 8px 0px 8px 0px;
+        }
+        // .i:hover ~ .it{
+        //     color: $hsvColor;
+        //     background: #DFEFFA;
+        // }
     }
     //hover effect for post
     .ps:hover{
@@ -250,6 +314,29 @@ $pheight:50px;
     //hover effect for list footer
     .lf:hover{
         background: $hsv2bgColor;
+    }
+    //.limg=list image
+    .limg{
+        height: 40px; 
+        width: 40px;
+        margin: 5px 0px 0px 10px;
+    }
+    //hover effect
+    .limg:hover{
+        
+    }
+    //.lb=list buttom
+    .lb{
+        color: $hsvColor; 
+        border: 1px solid $hsvColor; 
+        border-radius: 30px; 
+        font-weight: 700; 
+        font-size: $lfont;
+        padding: 2px 18px 2px 18px;
+    }
+    //hover effect 
+    .lb:hover{
+        background: #D8E8F2;
     }
     //.l=list on side nav right
     .l{

@@ -60,6 +60,9 @@
   .mb .dp {
     width: 50px;
     height: 50px; }
+  .mb .dps {
+    width: 30px;
+    height: 30px; }
   .mb .p {
     border-bottom: 10px solid #E6ECF0;
     padding: 4px; }
@@ -101,22 +104,64 @@
       color: #657786;
       position: relative;
       bottom: 10px; }
+    .mb .ps .pst3 {
+      font-weight: 400;
+      font-size: 15px;
+      position: relative;
+      bottom: 35px;
+      margin: 0px 0px 0px 70px; }
+    .mb .ps .pst4 {
+      font-weight: 400;
+      font-size: 15px;
+      position: relative;
+      bottom: 25px;
+      margin: 0px 0px 0px 70px;
+      color: #1DA1F2; }
+    .mb .ps .psts {
+      font-weight: 400;
+      font-size: 13px;
+      color: #657786;
+      position: relative;
+      top: 5px; }
+    .mb .ps .psc {
+      font-size: 15px;
+      font-weight: 400;
+      color: #14171A; }
     .mb .ps .pimg {
-      border: 0.1px solid gray;
+      border: 0px solid gray;
       border-radius: 30px;
       width: 94%;
       height: 35vh;
-      box-shadow: 1px 1px 5px gray;
       margin: 0px 20px 0px 30px; }
     .mb .ps .psi2 {
       border: 0px solid red;
       border-radius: 80px;
       padding: 5px 8px 5px 8px;
-      margin: 6px 8px 0px 0px;
+      margin: 2px 8px 0px 0px;
       color: #657786; }
     .mb .ps .psi2:hover {
       color: #4BB3F2;
       background: #D8E8F2; }
+    .mb .ps .i1 {
+      border: 1px solid #1DA1F2;
+      border-radius: 30px;
+      padding: 8px;
+      margin: 8px 0px 8px 0px; }
+    .mb .ps .i2 {
+      border: 1px solid #17BF63;
+      border-radius: 30px;
+      padding: 8px;
+      margin: 8px 0px 8px 0px; }
+    .mb .ps .i3 {
+      border: 1px solid #E12F66;
+      border-radius: 30px;
+      padding: 8px;
+      margin: 8px 0px 8px 0px; }
+    .mb .ps .i4 {
+      border: 1px solid #1DA1F2;
+      border-radius: 30px;
+      padding: 8px;
+      margin: 8px 0px 8px 0px; }
   .mb .ps:hover {
     background: #F5F8FA; }
 
@@ -148,6 +193,19 @@
       color: #1DA1F2; }
   .sidev2 .lf:hover {
     background: #EDF0F2; }
+  .sidev2 .limg {
+    height: 40px;
+    width: 40px;
+    margin: 5px 0px 0px 10px; }
+  .sidev2 .lb {
+    color: #1DA1F2;
+    border: 1px solid #1DA1F2;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 2px 18px 2px 18px; }
+  .sidev2 .lb:hover {
+    background: #D8E8F2; }
   .sidev2 .l {
     background: #F5F8FA;
     border-bottom: 0.5px solid #E6ECF0; }
