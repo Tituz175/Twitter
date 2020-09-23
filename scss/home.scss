@@ -209,55 +209,71 @@ $pheight:50px;
 //.sidev2=side nav right
 .sidev2{
     width: 55%;
-    //.it1=item one on side nav right
-    .it1{
+    //.s=search box
+    .s{
         border-radius: 50px; 
         background: #E6ECF0;
     }
-    //.it2=item two on side nav right
-    .it2{
+    //.lh=list header on side nav right
+    .lh{
         background:$sv2bgColor; 
         border-radius: 15px 15px 0px 0px; 
         border-bottom: 0.5px solid $bColor;
-        //.it2t=item two text on side nav right 
-        .it2t{
+        //.lht=list header text on side nav right 
+        .lht{
             font-size: $font;
             font-weight: 800;
         }
-        //.it2i=item two icon on side nav right
-        .it2i{
+        //.lhi=list header icon on side nav right
+        .lhi{
             border-radius:30px; 
             border: 0px solid red; 
             padding: 5px;
         }
-        //hover effect for the icon
-        .it2i:hover{
+        //hover effect for list header icon
+        .lhi:hover{
             background: $hsvbgColor;
         }
     }
-    //.it3=item three on side nav right
-    .it3{
+    //.lf=list footer on side nav right
+    .lf{
+        background:$sv2bgColor; 
+        border-radius: 0px 0px 15px 15px; 
+        padding: 12px 0px 12px 10px ;
+        //.lft=list footer text on side nav right 
+        .lft{
+            font-size: $lfont;
+            font-weight: 400;
+            color: $hsvColor;
+        }
+    }
+    //hover effect for list footer
+    .lf:hover{
+        background: $hsv2bgColor;
+    }
+    //.l=list on side nav right
+    .l{
         background: $sv2bgColor; 
         border-bottom: 0.5px solid $bColor;
-        //.it3t=item three text on side nav right
-        .it3t{
+        //.lt=list text on side nav right
+        .lt{
             font-size: $lfont;
             color: $textColor;
             font-weight: 700;
         } 
-        //.it3lt=item three light text on side nav right
-        .it3lt{
+        //.llt=list light text on side nav right
+        .llt{
             font-size: $lfont; 
             font-weight: 400;
             color: #657786;
         }
-        //.it3lt=item three light light text on side nav right
-        .it3llt{
+        //.lllt=list light light text on side nav right
+        .lllt{
             font-size: $llfont; 
             font-weight: 400;
             color: #657786;
-            //.it3li=item three light icon on side nav right
-            .it3li{
+            //.li=list icon on side nav right
+            .li{
                 border: 0px solid red;
                 border-radius: 80px;
                 padding: 5px 8px 5px 8px;
@@ -265,29 +281,13 @@ $pheight:50px;
             }
         }
             //hover effect for the icon
-            .it3li:hover{
+            .li:hover{
                 color: #4BB3F2;
                 background: #D8E8F2;
             }
     }
-    //hover effect for item three
-    .it3:hover{
-        background: $hsv2bgColor;
-    }
-    //.it4=item four on side nav right
-    .it4{
-        background:$sv2bgColor; 
-        border-radius: 0px 0px 15px 15px; 
-        padding: 12px 0px 12px 10px ;
-        //.it4t=item four text on side nav right 
-        .it4t{
-            font-size: $lfont;
-            font-weight: 400;
-            color: $hsvColor;
-        }
-    }
-    //hover effect for item four
-    .it4:hover{
+    //hover effect for list
+    .l:hover{
         background: $hsv2bgColor;
     }
 }
