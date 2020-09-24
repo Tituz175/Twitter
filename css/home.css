@@ -176,10 +176,15 @@
       color: #4BB3F2;
       background: #D8E8F2; }
     .mb .ps .i1 {
-      border: 1px solid #1DA1F2;
+      border: 0px solid #1DA1F2;
       border-radius: 30px;
-      padding: 8px;
+      padding: 10px;
       margin: 8px 0px 8px 0px; }
+    .mb .ps .i1:hover ~ .it {
+      color: #1DA1F2; }
+    .mb .ps .i1:hover {
+      background: #E8F5FE;
+      color: #1DA1F2; }
     .mb .ps .i2 {
       border: 1px solid #17BF63;
       border-radius: 30px;

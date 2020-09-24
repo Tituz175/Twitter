@@ -294,11 +294,20 @@ $pheight:50px;
         }
 
         .i1{
-            border: 1px solid $hsvColor;
+            border: 0px solid $hsvColor;
             border-radius: 30px;
-            padding: 8px;
+            padding: 10px;
             margin: 8px 0px 8px 0px;
         }
+        // .it{
+        //     font-weight: 800;
+        // }
+        // .it:hover ~ .i1{background: red; color: gold;}
+        
+        .i1:hover ~ .it{color: $hsvColor;}
+        .i1:hover{background: $hsvbgColor; color: $hsvColor;}
+        
+        
         .i2{
             border: 1px solid #17BF63;
             border-radius: 30px;
@@ -317,10 +326,6 @@ $pheight:50px;
             padding: 8px;
             margin: 8px 0px 8px 0px;
         }
-        // .i:hover ~ .it{
-        //     color: $hsvColor;
-        //     background: #DFEFFA;
-        // }
     }
     //hover effect for post
     .ps:hover{
