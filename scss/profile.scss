@@ -12,7 +12,7 @@ $bgbodyColor:#FFFFFF;
 $textColor:#14171A;
 $sv2bgColor:#F5F8FA; 
 $hsv2bgColor:#EDF0F2;
-$hsvbgColor:#E8F5FE;
+$hsvbgColor:#E8F5FE; 
 $hsvColor:#1DA1F2;
 $mbgColor:#FFFFFF; 
 $hmbgColor:#F5F8FA;
@@ -127,14 +127,40 @@ $pheight:50px;
 //.mb=main webpage body
 .mb{
     border: 1px solid $bColor;
-    //.pn=profile name
+    //.n=profile
     .n{
         border-bottom: 1px solid $bColor;
+        padding: 0px 0px 5px 18px;
+        display: flex;
     }
+    //.pt=profile text
+    .pt{
+        display: flex;
+        flex-direction: column;
+    }
+    //.pn=profile name
     .pn{ 
-        padding: 10px;
+        padding: 5px 0px 0px 10px;
         font-size: $font;
         font-weight: 800;
+        margin: 0px 0px 0px 12px;
+    }
+    //.nt=profile tweet
+    .nt{
+        font-size: $llfont;
+        font-weight: 400;
+        color: #657786;
+        margin: 0px 0px 0px 23px;
+    }
+    //.ni=back arrow
+    .ni{
+        border: 0px solid gray;
+        padding: 1px;
+        border-radius: 30px;
+        margin: 10px 0px 0px 0px;
+    }
+    .ni:hover{
+        background: $hsvbgColor;
     }
     //.hi=home icon
     .hi{
@@ -221,8 +247,9 @@ $pheight:50px;
             font-weight: 400;
             font-size: $lfont;
             position: relative; 
-            bottom: 35px;
-            margin: 0px 0px 0px 70px;
+            bottom: 30px;
+            margin: 0px 0px 0px 80px;
+            color: $textColor;
         }
         //.pst4=post 4th text
         .pst4{
@@ -275,11 +302,24 @@ $pheight:50px;
         }
         //.pimg=post image
         .pimg{
-            border: 0px solid gray; 
-            border-radius: 30px; 
+            border: 1px solid #CCD6DD; 
+            border-radius: 15px 15px 0px 0px; 
             width: 94%; 
-            height: 35vh; 
+            height: 30vh; 
             margin: 0px 20px 0px 30px;
+        }
+        //.pt=post text
+        .pt{
+            width: 94%; 
+            margin: 0px 20px 0px 30px; 
+            padding: 10px; 
+            border-radius: 0px 0px 15px 15px;
+            border: 1px solid #CCD6DD;
+            border-top: 0px;
+        }
+        //hover effect
+        .pt:hover{
+            background: $hsv2bgColor;
         }
         //.psi2=post icon two
         .psi2{
@@ -311,23 +351,41 @@ $pheight:50px;
         
         
         .i2{
-            border: 1px solid #17BF63;
+            border: 0px solid #17BF63;
             border-radius: 30px;
             padding: 8px;
             margin: 8px 0px 8px 0px;
         }
+
+        .i2:hover ~ .it{color: #17BF63;}
+        .i2:hover{background: #DEF2EB; color: #17BF63;}
+
         .i3{
-            border: 1px solid #E12F66;
+            border: 0px solid #E12F66;
             border-radius: 30px;
             padding: 8px;
             margin: 8px 0px 8px 0px;
         }
+        .i3:hover ~ .it{color: #E12F66;}
+        .i3:hover{background: #F3E3EB; color: #E12F66;}
+
         .i4{
-            border: 1px solid $hsvColor;
+            border: 0px solid $hsvColor;
             border-radius: 30px;
             padding: 8px;
             margin: 8px 0px 8px 0px;
         }
+        .i4:hover ~ .it{color: $hsvColor;}
+        .i4:hover{background: $hsvbgColor; color: $hsvColor;}
+
+        .i5{
+            border: 0px solid $hsvColor;
+            border-radius: 30px;
+            padding: 6px 10px 6px 10px;
+            margin: 8px 0px 8px 0px;
+        }
+        .i5:hover ~ .it{color: $hsvColor;}
+        .i5:hover{background: $hsvbgColor; color: $hsvColor;}
     }
     //hover effect for post
     .ps:hover{
@@ -457,5 +515,62 @@ $pheight:50px;
     }
     .c{
         cursor: pointer;
+    }
+}
+//.bp=buttom primary
+.bp{
+    color: $hsvColor; 
+    border: 1px solid $hsvColor; 
+    border-radius: 30px; 
+    font-weight: 700; 
+    font-size: $lfont;
+    padding: 4px 18px 4px 18px;
+}
+//hover effect 
+.bp:hover{
+    background: #D8E8F2;
+    color: $hsvColor;
+}
+
+//.lt=list text 
+.lt{
+    font-size: $lfont;
+    color: $textColor;
+    font-weight: 700;
+} 
+//.llt=list light text 
+.llt{
+    font-size: $lfont; 
+    font-weight: 400;
+    color: #657786;
+}
+//.lltb=list light text black
+.lltb{
+    font-size: $lfont; 
+    font-weight: 400;
+    color: #14171A;
+}
+//.lllt=list light light text 
+.lllt{
+    font-size: $llfont; 
+    font-weight: 400;
+    color: #657786;
+}
+//.nav=tweets nav bar
+.nav{
+    color: $hsvColor; 
+    border: 0px solid $hsvColor; 
+    border-radius: 0px; 
+    font-weight: 700; 
+    font-size: $lfont;
+    padding: 12px 45px 12px 45px; 
+    text-decoration: none;
+    color: #657786;
+}
+.nav:hover{
+    color: $hsvColor;
+    background-color: $hsvbgColor;
+    .llt{
+        color: $hsvColor;
     }
 }

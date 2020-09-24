@@ -182,9 +182,9 @@
       background: #EDF0F2; }
     .mb .ps .pimg {
       border: 1px solid #CCD6DD;
-      border-radius: 15px 15px 0px 0px;
+      border-radius: 15px 15px 15px 15px;
       width: 94%;
-      height: 30vh;
+      height: 35vh;
       margin: 0px 20px 0px 30px; }
     .mb .ps .pt {
       width: 94%;
@@ -377,9 +377,12 @@
   color: #657786; }
 
 .nav:hover {
+  background: #E8F5FE; }
+
+.nav:hover {
   color: #1DA1F2;
   background-color: #E8F5FE; }
   .nav:hover .llt {
     color: #1DA1F2; }
 
-/*# sourceMappingURL=profile.css.map */
+/*# sourceMappingURL=m.css.map */

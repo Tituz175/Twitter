@@ -377,9 +377,12 @@
   color: #657786; }
 
 .nav:hover {
+  background: #E8F5FE; }
+
+.nav:hover {
   color: #1DA1F2;
   background-color: #E8F5FE; }
   .nav:hover .llt {
     color: #1DA1F2; }
 
-/*# sourceMappingURL=profile.css.map */
+/*# sourceMappingURL=tr.css.map */

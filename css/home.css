@@ -180,26 +180,41 @@
       border-radius: 30px;
       padding: 10px;
       margin: 8px 0px 8px 0px; }
-    .mb .ps .i1:hover ~ .it {
+    .mb .ps .i1:hover ~ .it1 {
       color: #1DA1F2; }
     .mb .ps .i1:hover {
       background: #E8F5FE;
       color: #1DA1F2; }
     .mb .ps .i2 {
-      border: 1px solid #17BF63;
+      border: 0px solid #17BF63;
       border-radius: 30px;
       padding: 8px;
       margin: 8px 0px 8px 0px; }
+    .mb .ps .i2:hover ~ .it2 {
+      color: #17BF63; }
+    .mb .ps .i2:hover {
+      background: #DEF2EB;
+      color: #17BF63; }
     .mb .ps .i3 {
-      border: 1px solid #E12F66;
+      border: 0px solid #E12F66;
       border-radius: 30px;
       padding: 8px;
       margin: 8px 0px 8px 0px; }
+    .mb .ps .i3:hover ~ .it3 {
+      color: #E12F66; }
+    .mb .ps .i3:hover {
+      background: #F3E3EB;
+      color: #E12F66; }
     .mb .ps .i4 {
-      border: 1px solid #1DA1F2;
+      border: 0px solid #1DA1F2;
       border-radius: 30px;
       padding: 8px;
       margin: 8px 0px 8px 0px; }
+    .mb .ps .i4:hover ~ .it4 {
+      color: #1DA1F2; }
+    .mb .ps .i4:hover {
+      background: #E8F5FE;
+      color: #1DA1F2; }
   .mb .ps:hover {
     background: #F5F8FA; }
 
@@ -277,7 +292,8 @@
     padding: 0px 3px 0px 3px; }
   .sidev2 .tmsh:hover {
     text-decoration: underline; }
-  .sidev2 .c {
-    cursor: pointer; }
+
+.c {
+  cursor: pointer; }
 
 /*# sourceMappingURL=home.css.map */
