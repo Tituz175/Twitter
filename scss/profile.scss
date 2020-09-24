@@ -1,0 +1,461 @@
+// Colors
+// key: 
+// bg=background 
+// sv=side nav 
+// hsv=hover 
+// side nav
+// mb=main body
+// hmb=hover main body 
+// b=border
+
+$bgbodyColor:#FFFFFF;
+$textColor:#14171A;
+$sv2bgColor:#F5F8FA; 
+$hsv2bgColor:#EDF0F2;
+$hsvbgColor:#E8F5FE;
+$hsvColor:#1DA1F2;
+$mbgColor:#FFFFFF; 
+$hmbgColor:#F5F8FA;
+$bColor:#E6ECF0;
+
+
+// font sizes
+// key: 
+// l=light
+// ll=light light
+// i=icon
+
+$font:19px;
+$lfont:15px;
+$llfont:13px;
+$ifont:120%;
+
+// Pictures
+//key p=profile
+$pwidth:50px;
+$pheight:50px;
+
+//.sidev=side nav left
+.sidev{
+    // position: relative;
+    // left: 100px;
+    margin: 0px 0px 0px 320px;
+
+    //.v=the div housing each side nav items
+    .v{
+        padding: 28px 0px 0px 0px;
+        border: 0px solid red;
+        // :hover .sv{ background: $hsvbgColor; color: $hsvColor; 
+        // }
+        //.sv=the nav items
+       .sv{
+           text-decoration: none; 
+           color: $textColor; 
+           border: 0px solid black; 
+           border-radius: 30px; 
+           padding: 10px 15px 10px 15px;
+           font-size: $font;
+           font-weight: 700;
+       }
+        //.isv=icon in the nav items
+       .isv{
+           font-size: $ifont;
+           margin-right: 18px;
+       }
+    }
+
+   //hover effect for the nav times 
+    .v:hover .sv{ background: $hsvbgColor; color: $hsvColor;}
+    //.t=twitter icon
+    .t{
+        border-radius: 30px;
+        padding: 12px;
+        color: $hsvColor;
+        font-size: 180%;
+        margin: 2px 0px 0px 0px;
+    }
+    //hover effect for the icon
+    .t:hover {
+        background: $hsvbgColor; 
+        color: $hsvColor;
+    }
+    //.t=tweet buttom in the side nav
+    .b{
+        font-size: $lfont;
+        font-weight: 700;
+        background: $hsvColor; 
+        border-radius: 50px; 
+        width: 80%; 
+        padding: 5% 0% 5% 0%;
+        margin: 35px 0px 0px 0px;
+    }
+    //hover effect for the buttom
+    .b:hover{
+        background: #1A91DA;
+    }
+    //.pn=profile nav
+    .pn{
+        border: 0px solid red;
+        border-radius: 50px;
+        padding: 5px 10px 5px 10px;
+        margin: 100% 0% 0% 0%;
+        width: 98%;
+    }
+    //.hover effect
+    .pn:hover{
+        background: $hsvbgColor;
+    }
+    //.pnt=profile nav text
+    .pnt{ 
+        font-weight: 700;
+        font-size: $lfont;
+        color: $textColor;
+        margin: 5px 0px 1px 5px;
+    }
+        //.pnts=profile nav text secondary
+    .pnts{
+        font-size: $lfont;
+        font-weight: 400;
+        color: #657786;
+        margin: 0px 0px 0px 10px;
+    }
+    //.pni=profile nav icon
+    .pni{
+        margin: 18px 0px 0px 65px;
+    }
+}
+//.mb=main webpage body
+.mb{
+    border: 1px solid $bColor;
+    //.pn=profile name
+    .n{
+        border-bottom: 1px solid $bColor;
+    }
+    .pn{ 
+        padding: 10px;
+        font-size: $font;
+        font-weight: 800;
+    }
+    //.hi=home icon
+    .hi{
+        border-bottom: 0px solid black;
+        border-radius: 50px;
+        padding: 5px;
+        height: 35px;
+    }
+    //hover effect for home icon
+    .hi:hover {
+        background: $hsvbgColor; 
+        color: $hsvColor;
+    }
+    //.dp=profile picture
+    .dp{
+        width: $pwidth;
+        height: $pheight;
+    }
+    //.dps=profile picture smaller
+    .dps{
+        width: 30px;
+        height: 30px;
+    } 
+    //.p=profile
+    .p{
+        border-bottom: 10px solid $bColor;
+        padding: 4px;
+        //.pt=profile text
+        .pt{
+            font-size: $font;
+            font-weight: 400;
+            color: #778794;
+        }
+        //.pi=profile icons
+        .pi{
+            margin: 0px 5px 12px 2px;
+            padding: 4px;
+            border: 0px solid black;
+            border-radius: 20px;
+        }
+        //hover effect for the icons
+        .pi:hover{
+            background: $hsvbgColor;
+        }
+        //.pb=profile buttom
+        .pb{
+            margin: 0px 100px 0px 0px;
+            color:white;
+            background: #8ED0F9;
+            padding: 7% 12% 7% 12%;
+            font-size: $lfont;
+            font-weight: 700;
+            border-radius: 30px;
+            position: relative;
+            left: 60px;
+        }
+    }
+    //.ps=posts
+    .ps{
+        border: 1px solid $bColor;
+        //.pst=post text
+        .pst{
+            position: relative; 
+            bottom: 10px; 
+            font-weight: 700;
+            font-size: $lfont;
+        }
+        //.psi=post icon
+        .psi{
+            color: $hsvColor; 
+            position: relative; 
+            bottom: 10px;
+        }
+        //.pst2=post secondary text
+        .pst2{
+            font-weight: 400;
+            font-size: $lfont;
+            color: #657786;
+            position: relative; 
+            bottom: 10px;
+        }
+        //.pst3=post 3rd text
+        .pst3{
+            font-weight: 400;
+            font-size: $lfont;
+            position: relative; 
+            bottom: 35px;
+            margin: 0px 0px 0px 70px;
+        }
+        //.pst4=post 4th text
+        .pst4{
+            font-weight: 400;
+            font-size: $lfont;
+            position: relative; 
+            bottom: 25px;
+            margin: 0px 0px 0px 70px; 
+            color: $hsvColor;    
+        }
+        //.psts=post text superscript
+        .psts{
+            font-weight: 400;
+            font-size: $llfont;
+            color: #657786;
+            position: relative;
+            top: 5px;
+        }
+        //.psc=post content
+        .psc{
+            font-size: $lfont;
+            font-weight: 400;
+            color: $textColor;
+        }
+        //.psf=post footer
+        .psf{
+            border: 0px solid red;
+            padding: 5px 0px 5px 0px;
+            width: 100%;
+            position: relative; 
+            bottom: 30px;
+            
+            //.psfdp=post footer image
+            .psfdp{
+                margin: 0px 0px 0px 20px;
+                width: 40px;
+                height: 40px;
+            }
+            //.psft=post footer text
+            .psft{
+                margin: 0px 0px 0px 5px;
+                text-decoration: none;
+                font-size: $lfont;
+                font-weight: 400;
+                color:#1b95e0;
+            }
+        }
+        .psf:hover{
+            background: $hsv2bgColor;
+        }
+        //.pimg=post image
+        .pimg{
+            border: 0px solid gray; 
+            border-radius: 30px; 
+            width: 94%; 
+            height: 35vh; 
+            margin: 0px 20px 0px 30px;
+        }
+        //.psi2=post icon two
+        .psi2{
+            border: 0px solid red;
+            border-radius: 80px;
+            padding: 5px 8px 5px 8px;
+            margin: 2px 8px 0px 0px;
+            color: #657786;
+        }
+        //hover effect for icon
+        .psi2:hover{
+            color: #4BB3F2;
+            background: #D8E8F2;
+        }
+
+        .i1{
+            border: 0px solid $hsvColor;
+            border-radius: 30px;
+            padding: 10px;
+            margin: 8px 0px 8px 0px;
+        }
+        // .it{
+        //     font-weight: 800;
+        // }
+        // .it:hover ~ .i1{background: red; color: gold;}
+        
+        .i1:hover ~ .it{color: $hsvColor;}
+        .i1:hover{background: $hsvbgColor; color: $hsvColor;}
+        
+        
+        .i2{
+            border: 1px solid #17BF63;
+            border-radius: 30px;
+            padding: 8px;
+            margin: 8px 0px 8px 0px;
+        }
+        .i3{
+            border: 1px solid #E12F66;
+            border-radius: 30px;
+            padding: 8px;
+            margin: 8px 0px 8px 0px;
+        }
+        .i4{
+            border: 1px solid $hsvColor;
+            border-radius: 30px;
+            padding: 8px;
+            margin: 8px 0px 8px 0px;
+        }
+    }
+    //hover effect for post
+    .ps:hover{
+        background: $sv2bgColor;
+    }
+}
+//.sidev2=side nav right
+.sidev2{
+    width: 55%;
+    //.s=search box
+    .s{
+        border-radius: 50px; 
+        background: #E6ECF0;
+    }
+    //.lh=list header on side nav right
+    .lh{
+        background:$sv2bgColor; 
+        border-radius: 15px 15px 0px 0px; 
+        border-bottom: 0.5px solid $bColor;
+        //.lht=list header text on side nav right 
+        .lht{
+            font-size: $font;
+            font-weight: 800;
+        }
+        //.lhi=list header icon on side nav right
+        .lhi{
+            border-radius:30px; 
+            border: 0px solid red; 
+            padding: 5px;
+        }
+        //hover effect for list header icon
+        .lhi:hover{
+            background: $hsvbgColor;
+        }
+    }
+    //.lf=list footer on side nav right
+    .lf{
+        background:$sv2bgColor; 
+        border-radius: 0px 0px 15px 15px; 
+        padding: 12px 0px 12px 10px ;
+        //.lft=list footer text on side nav right 
+        .lft{
+            font-size: $lfont;
+            font-weight: 400;
+            color: $hsvColor;
+        }
+    }
+    //hover effect for list footer
+    .lf:hover{
+        background: $hsv2bgColor;
+    }
+    //.limg=list image
+    .limg{
+        height: 40px; 
+        width: 40px;
+        margin: 5px 0px 0px 10px;
+    }
+    //hover effect
+    // .limg:hover{
+        
+    // }
+    //.lb=list buttom
+    .lb{
+        color: $hsvColor; 
+        border: 1px solid $hsvColor; 
+        border-radius: 30px; 
+        font-weight: 700; 
+        font-size: $lfont;
+        padding: 4px 18px 4px 18px;
+    }
+    //hover effect 
+    .lb:hover{
+        background: #D8E8F2;
+    }
+    //.l=list on side nav right
+    .l{
+        background: $sv2bgColor; 
+        border-bottom: 0.5px solid $bColor;
+        //.lt=list text on side nav right
+        .lt{
+            font-size: $lfont;
+            color: $textColor;
+            font-weight: 700;
+        } 
+        //.llt=list light text on side nav right
+        .llt{
+            font-size: $lfont; 
+            font-weight: 400;
+            color: #657786;
+        }
+        //.lllt=list light light text on side nav right
+        .lllt{
+            font-size: $llfont; 
+            font-weight: 400;
+            color: #657786;
+        }
+        
+        //.li=list icon on side nav right
+        .li{
+            border: 0px solid red;
+            border-radius: 80px;
+            padding: 5px 8px 5px 8px;
+            margin: 3px 4px 0px 0px;
+
+            //hover effect for the icon
+            .li:hover{
+                color: #4BB3F2;
+                background: #D8E8F2;
+            }
+        }  
+    }
+    //hover effect for list
+    .l:hover{
+        background: $hsv2bgColor;
+    }
+    //.tms=terms and conditions text
+    .tms{
+        font-size: $llfont;
+        font-weight: 400;
+        color: #657786;
+        margin: 18px 0px 10px 0px;
+        padding: 0px 3px 0px 3px;
+    }
+    //hover effect for tms
+    .tmsh:hover{
+        text-decoration: underline;
+    }
+    .c{
+        cursor: pointer;
+    }
+}
