@@ -1,0 +1,76 @@
+//color
+$twitterblue:#1da1f2;
+$twitterlightblue:#71C9F8;
+$twitterblack:#14171A;
+
+//font
+$twitterlight:13px;
+$twitternormal:15px;
+$twitterbold:19px;
+$twitterbolder:23px;
+
+.fontlight{
+    font-size: $twitterlight;
+}
+.fontnormal{
+    font-size: $twitternormal;
+}
+.fontbold{
+    font-size: $twitterbold;
+}
+.fontbolder{
+    font-size: $twitterbolder;
+}
+.twitterlogo{
+    color: $twitterblue;
+    font-size:35px;
+    font-weight: 400;
+}
+.labelinput1{
+    margin: 0px 0px 0px 270px; 
+    padding: 0px 360px 0px 0px;
+    font-weight: 400; 
+    color: #657786;
+    background: #F5F8FA;
+    width: 50%;
+}
+.labelinput2{
+    margin: 0px 0px 0px 270px; 
+    padding: 0px 475px 0px 0px;
+    font-weight: 400; 
+    color: #657786;
+    background: #F5F8FA;
+    width: 50%;
+    border: 0px solid red;
+}
+.input{
+    margin: 0px 0px 0px 270px; 
+    outline: none; 
+    height: 40px; 
+    background: #E8F0FE; 
+    border: 0px; 
+    border-bottom: 2px solid #657786;
+}
+.input:focus{
+    border-bottom: 2px solid $twitterblue;
+}
+.twitterbluebuttom{
+    font-weight: 700; 
+    border-radius: 30px;
+    color: white;
+    background:$twitterblue;
+    width: 50%;
+    text-align: center;
+    padding: 12px 0px 12px 0px;
+    margin: 0px 0px 0px 270px;
+}
+.twitterbluebuttom:hover{
+    background: #1A91DA;
+}
+.cursor{
+    cursor: pointer;
+}
+.hover:hover{
+    text-decoration: underline;
+    color: #1B95E0;
+}

@@ -1,55 +1,66 @@
-body{
-    /* padding: 0%;
-    margin: 0%; */
-}
-form{
-    /* display: flex;
-    flex-direction: column;
-    padding-right: 100px; */
-}
-.form{
-    background: #F5F8FA; 
-    border:0ch; 
-    border-bottom: 2px solid #657786;
-    height: 60px;
-    text-align: top-left;
-    width: 30%;
-}
-.focus:focus{
-    background-color: #F5F8FA; 
-    border:0ch; 
-    border-bottom: 2px solid #1DA1F2;
-    height: 60px;
-    outline: none;
-    color: #1DA1F2;
-}
-.log{
-    padding-top: 10px;
-    height: 50px;
-    color: white;
-    background-color: #8ED0F9;
-    width: 30%;  
-    border-radius: 50px; 
-    cursor: pointer;
-    text-align: center;
-}
-.hovb:hover{
-    color: white;
-}
-.nxt{
-    padding-top: 1px;
-    height: 35px;
-    background-color: #8ED0F9;
-    color: white;
-    width: px;
-    border-radius: 30px;
-    margin-left: 28%;
-    font-size: 20px; 
-}
-.nxt:hover{
-    background-color: #8ED0F9 !important;
-    color: white !important;
-}
-.ltext{
-    color: #657786;
-}
+.fontlight {
+  font-size: 13px; }
+
+.fontnormal {
+  font-size: 15px; }
+
+.fontbold {
+  font-size: 19px; }
+
+.fontbolder {
+  font-size: 23px; }
+
+.twitterlogo {
+  color: #1da1f2;
+  font-size: 35px;
+  font-weight: 400; }
+
+.labelinput1 {
+  margin: 0px 0px 0px 270px;
+  padding: 0px 360px 0px 0px;
+  font-weight: 400;
+  color: #657786;
+  background: #F5F8FA;
+  width: 50%; }
+
+.labelinput2 {
+  margin: 0px 0px 0px 270px;
+  padding: 0px 475px 0px 0px;
+  font-weight: 400;
+  color: #657786;
+  background: #F5F8FA;
+  width: 50%;
+  border: 0px solid red; }
+
+.input {
+  margin: 0px 0px 0px 270px;
+  outline: none;
+  height: 40px;
+  background: #E8F0FE;
+  border: 0px;
+  border-bottom: 2px solid #657786; }
+
+.input:focus {
+  border-bottom: 2px solid #1da1f2; }
+
+.twitterbluebuttom {
+  font-weight: 700;
+  border-radius: 30px;
+  color: white;
+  background: #1da1f2;
+  width: 50%;
+  text-align: center;
+  padding: 12px 0px 12px 0px;
+  margin: 0px 0px 0px 270px; }
+
+.twitterbluebuttom:hover {
+  background: #1A91DA; }
+
+.cursor {
+  cursor: pointer; }
+
+.hover:hover {
+  text-decoration: underline;
+  color: #1B95E0; }
+
+/*# sourceMappingURL=signin.css.map */

@@ -1,0 +1,77 @@
+.background {
+  background-image: url("/image/icons8-twitter.svg");
+  width: 180%;
+  height: 95vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column; }
+
+.backgroundwhite {
+  background-color: white;
+  height: 100vh;
+  display: flex; }
+
+.fontlight {
+  font-size: 13px; }
+
+.fontnormal {
+  font-size: 15px; }
+
+.fontbold {
+  font-size: 19px; }
+
+.fontbolder {
+  font-size: 30px; }
+
+.listleft {
+  color: #fff;
+  font-weight: 700; }
+
+.twitterlogo {
+  color: #1da1f2;
+  font-size: 45px;
+  font-weight: 400; }
+
+.twitterbluebuttom {
+  font-weight: 700;
+  border-radius: 30px;
+  color: white;
+  background: #1da1f2;
+  width: 100%;
+  text-align: center;
+  padding: 7px 0px 7px 0px; }
+
+.twitterbluebuttom:hover {
+  background: #1A91DA; }
+
+.twitterwhitebuttom {
+  font-weight: 700;
+  border-radius: 30px;
+  background: white;
+  color: #1da1f2;
+  border: 0.5px solid #1da1f2;
+  width: 100%;
+  text-align: center;
+  padding: 7px 0px 7px 0px; }
+
+.twitterwhitebuttom:hover {
+  background: #E8F5FE; }
+
+.bottomtextalignleft {
+  margin: 90px 0px 0px 350px;
+  font-weight: 400;
+  color: #657786; }
+
+.hover:hover {
+  text-decoration: underline; }
+
+.bottomtextalignright {
+  margin: 332px 0px 0px 15px;
+  font-weight: 400;
+  color: #657786; }
+
+.cursor {
+  cursor: pointer; }
+
+/*# sourceMappingURL=signout.css.map */
