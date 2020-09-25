@@ -257,7 +257,7 @@ $pheight:50px;
             font-size: $lfont;
             position: relative; 
             bottom: 25px;
-            margin: 0px 0px 0px 70px; 
+            margin: 0px 0px 0px 80px; 
             color: $hsvColor;    
         }
         //.psts=post text superscript
@@ -576,10 +576,4 @@ $pheight:50px;
     .llt{
         color: $hsvColor;
     }
-}
-.u:hover{
-    text-decoration: underline;
-}
-.c{
-    cursor: pointer;
 }

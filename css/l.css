@@ -150,7 +150,7 @@
       font-size: 15px;
       position: relative;
       bottom: 25px;
-      margin: 0px 0px 0px 70px;
+      margin: 0px 0px 0px 80px;
       color: #1DA1F2; }
     .mb .ps .psts {
       font-weight: 400;
@@ -385,10 +385,4 @@
   .nav:hover .llt {
     color: #1DA1F2; }
 
-.u:hover {
-  text-decoration: underline; }
-
-.c {
-  cursor: pointer; }
-
-/*# sourceMappingURL=m.css.map */
+/*# sourceMappingURL=l.css.map */
