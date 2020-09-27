@@ -86,3 +86,57 @@ $twitterbolder:30px;
 .cursor{
     cursor: pointer;
 }
+.twitterbuttomnext{
+    font-weight: 700; 
+    border-radius: 20px;
+    color: white;
+    background:$twitterblue;
+    // width: 100%;
+    // text-align: center;
+    padding: 3px 12px 3px 12px;
+    margin: 0px 0px 0px 150px;
+}
+.twitterlogomodal{
+    color: $twitterblue;
+    font-size:25px;
+    font-weight: 400;
+}
+.header{
+    font-size: 23px;
+    font-weight: 700;
+    color: #14171A;
+}
+.input{
+    margin: 0px 0px 0px 0px; 
+    outline: none; 
+    height: 40px; 
+    background: #E8F0FE; 
+    border: 0px; 
+    border-bottom: 2px solid #657786;
+}
+.input:focus{
+    border-bottom: 2px solid $twitterblue;
+}
+.labelinput1{
+    margin: 12px 0px 0px 0px; 
+    padding: 0px 0px 0px 10px;
+    font-weight: 400; 
+    color: #657786;
+    background: #E8F0FE;
+    // width: 50%;
+}
+.mail{
+    font-weight:400; 
+    color: #1b95e0;
+}
+.mail:hover{
+    text-decoration: underline;
+}
+.date{
+    margin: 0px 0px 0px 0px; 
+    outline: none; 
+    height: 40px; 
+    background: #E8F0FE; 
+    border: 0px; 
+    border-bottom: 2px solid #657786;
+}
