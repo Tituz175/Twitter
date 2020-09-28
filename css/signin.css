@@ -63,4 +63,55 @@
   text-decoration: underline;
   color: #1B95E0; }
 
+.twitterbuttomnext {
+  font-weight: 700;
+  border-radius: 20px;
+  color: white;
+  background: #1da1f2;
+  padding: 3px 12px 3px 12px;
+  margin: 0px 0px 0px 150px; }
+
+.twitterlogomodal {
+  color: #1da1f2;
+  font-size: 25px;
+  font-weight: 400; }
+
+.header {
+  font-size: 23px;
+  font-weight: 700;
+  color: #14171A; }
+
+.inputmodal {
+  margin: 0px 0px 0px 0px;
+  outline: none;
+  height: 40px;
+  background: #E8F0FE;
+  border: 0px;
+  border-bottom: 2px solid #657786; }
+
+.inputmodal:focus {
+  border-bottom: 2px solid #1da1f2; }
+
+.labelmodal {
+  margin: 12px 0px 0px 0px;
+  padding: 0px 0px 0px 10px;
+  font-weight: 400;
+  color: #657786;
+  background: #E8F0FE; }
+
+.mail {
+  font-weight: 400;
+  color: #1b95e0; }
+
+.mail:hover {
+  text-decoration: underline; }
+
+.date {
+  margin: 0px 0px 0px 0px;
+  outline: none;
+  height: 40px;
+  background: #E8F0FE;
+  border: 0px solid red;
+  border-bottom: 2px solid #657786; }
+
 /*# sourceMappingURL=signin.css.map */
