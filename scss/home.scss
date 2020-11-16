@@ -129,7 +129,7 @@ $pheight:50px;
     border: 1px solid $bColor;
     //.h=home text
     .h{ 
-        padding: 10px;
+        padding: 0px;
         font-size: $font;
         font-weight: 800;
         border-bottom: 1px solid $bColor;
@@ -138,8 +138,8 @@ $pheight:50px;
     .hi{
         border-bottom: 0px solid black;
         border-radius: 50px;
-        padding: 5px;
-        height: 35px;
+        padding: 0px;
+        height: 0px;
     }
     //hover effect for home icon
     .hi:hover {
